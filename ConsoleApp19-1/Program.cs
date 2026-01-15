@@ -5,7 +5,7 @@ namespace ConsoleApp19_1
     {
         public static void Main()
         {
-            TestPerson person = new Testinfo("山田", 20, 170, 60);
+            TestPerson person = new TestInfo("山田", 20, 170, 60);
         }
     }
     class TestPerson
@@ -20,11 +20,11 @@ namespace ConsoleApp19_1
             Console.WriteLine("名前:" + name + ",年齢" + age);
         }
     }
-    class Testinfo : TestPerson
+    class TestInfo : TestPerson
     {
         int height;
         int weight;
-        public Testinfo(string name, int age, int height, int weight) : base(name, age)
+        public TestInfo(string name, int age, int height, int weight) : base(name, age)
         {
             this.height = height;
             this.weight = weight;
