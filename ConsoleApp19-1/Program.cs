@@ -7,9 +7,7 @@ namespace ConsoleApp19_1
         {
             TestPerson person = new Testinfo("山田", 20, 170, 60);
         }
-
     }
-
     class TestPerson
     {
         string name;
@@ -33,6 +31,5 @@ namespace ConsoleApp19_1
             Console.WriteLine("派生クラス");
             Console.WriteLine("身長:" + height + ",体重" + weight);
         }
-
     }
 }
